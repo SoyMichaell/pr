@@ -121,7 +121,7 @@ Route::resource('programa', App\Http\Controllers\ProgramaController::class);
 
 
 
-/*Rutas Estudiantes*/ 
+/*Rutas Estudiantes*/
 
 
 Route::get('/estudiante/pdf', [App\Http\Controllers\EstudianteController::class, 'pdf']);
@@ -148,12 +148,9 @@ Route::get('/docente/export', [App\Http\Controllers\DocenteController::class, 'e
 
 Route::resource('docente', App\Http\Controllers\DocenteController::class);
 
-<<<<<<< HEAD
-=======
 /*Rutas director externo*/
 
 Route::resource('externo', App\Http\Controllers\ExternoController::class);
->>>>>>> 5303d804215456781a1b8079392f4c726554985a
 
 
 
